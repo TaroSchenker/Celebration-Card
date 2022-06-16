@@ -1,0 +1,55 @@
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: block;
+    margin-right: auto;
+}
+
+label{
+    display: block;
+    margin-right: auto;
+}
+input{
+    display: block;
+    margin-right: auto;
+}
+
+
+.card{
+    background-image: url('./img/celebrate.png');
+    background-size: contain;
+    width: 50vh;
+    height: 40vh;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+
+}
+
+.card >h1,h2,p {
+    color:blue;
+    margin: 0 auto;
+    
+    background-color:rgba(255, 255, 255, 0.722);
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+
+}
+
+

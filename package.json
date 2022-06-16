@@ -1,0 +1,23 @@
+{
+  "name": "celebrationcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "watchify ./index.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "watchify": "^4.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
